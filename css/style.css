@@ -11,39 +11,39 @@ text-decoration: none;
 font-weight: bold;
 }
 
- .cisco-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
+.cisco-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
 
+.cisco-pod {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 25%; /* Each pod takes up 25% of the container's width */
+  box-sizing: border-box;
+  min-width: 300px;
+}
+
+@media (max-width: 1200px) {
   .cisco-pod {
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 1 1 calc(33.333% - 40px); /* Adjusting for padding and gap */
-    box-sizing: border-box;
-    min-width: 300px;
+    flex: 1 1 50%; /* Each pod takes up 50% of the container's width */
   }
+}
 
-  @media (max-width: 1200px) {
-    .cisco-pod {
-      flex: 1 1 calc(50% - 40px);
-    }
+@media (max-width: 768px) {
+  .cisco-pod {
+    flex: 1 1 100%; /* Each pod takes up full width of the container */
   }
+}
 
-  @media (max-width: 768px) {
-    .cisco-pod {
-      flex: 1 1 100%;
-    }
-  }
+.cisco-pod h3 {
+  margin-top: 0;
+}
 
-  .cisco-pod h3 {
-    margin-top: 0;
-  }
-
-  .cisco-pod p {
-    margin-bottom: 10px;
-  }
+.cisco-pod p {
+  margin-bottom: 10px;
+}
