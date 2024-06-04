@@ -14,7 +14,7 @@ color: #e60000;
 .cisco-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .cisco-pod {
