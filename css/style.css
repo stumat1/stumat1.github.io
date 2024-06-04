@@ -24,7 +24,7 @@ font-weight: bold;
   border: 1px solid #000000;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 1 25%; /* Each pod takes up 25% of the container's width */
+
   box-sizing: border-box;
 }
 
