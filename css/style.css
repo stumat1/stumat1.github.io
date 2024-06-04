@@ -15,8 +15,6 @@ font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 20px;
-  justify-content: center;
 }
 
 .cisco-pod {
