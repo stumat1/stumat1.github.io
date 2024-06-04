@@ -20,8 +20,8 @@ font-weight: bold;
 }
 
 .cisco-pod {
-  background-color: #b3f0ff;
-  border: 1px solid #008fb3;
-  border-radius: 20px;
+  background-color: #e6faff;
+  border: 2px solid #008fb3;
+  border-radius: 12px;
   padding: 10px;
 }
