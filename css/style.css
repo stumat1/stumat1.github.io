@@ -14,11 +14,11 @@ color: #e60000;
 .cisco-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.6rem;
 }
 
 .cisco-pod {
-  background-color: #e7feff;
+  background-color: #e0ffff;
   border: 2px solid #008fb3;
   border-radius: 10px;
   padding: 10px;
