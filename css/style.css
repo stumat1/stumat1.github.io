@@ -33,7 +33,8 @@ color: #e60000;
 
 .cisco-pod {
   background-color: #F8FFFF;
-  border: 2px solid #008fb3;
+  border: 2px solid #95A591;
   border-radius: 10px;
   padding: 10px;
+  margin: 0.5rem;
 }
