@@ -17,7 +17,7 @@ body {
     border-radius: 32px;
     padding: 1.2rem;
     box-sizing: border-box;
-    height: 97vh;
+    /* height: 97vh; */
 }
 
 a {
@@ -32,7 +32,7 @@ color: #e60000;
 }
 
 .cisco-pod {
-  background-color: #F8FFFF;
+  background-color: #FFFFFF;
   border: 2px solid #95A591;
   border-radius: 10px;
   padding: 10px;
