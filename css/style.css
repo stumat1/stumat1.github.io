@@ -2,8 +2,20 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     color: #000000;
+    background-color: #FFFFFF;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
+}
+
+.general-wrapper{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 2px solid #95A591;
+    border-radius: 32px;
+    padding: 1.2rem;
+    box-sizing: border-box;
 }
 
 a {
