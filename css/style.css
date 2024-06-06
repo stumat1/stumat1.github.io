@@ -10,7 +10,9 @@ body {
   /* flex-direction: column; */
 }
 
-
+.logo img {
+  align: center;
+}
 .general-wrapper {
   margin: 0 auto;
   max-width: 1400px;
