@@ -50,8 +50,10 @@ a {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value if necessary) */
-  padding-top: 30px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally on the page */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
 }
