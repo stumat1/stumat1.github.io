@@ -46,15 +46,17 @@
         <p><a href="bio.html">A little bio</a></p>
 
         <br>
-        
-        <center><p id="last-updated"></p></center>
+
+        <center>
+            <p id="last-updated"></p>
+        </center>
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-              var lastModified = document.lastModified;
-              var element = document.getElementById('last-updated');
-              element.innerHTML = 'Page last updated: ' + lastModified;
+            document.addEventListener('DOMContentLoaded', function () {
+                var lastModified = new Date(document.lastModified).toUTCString();
+                var element = document.getElementById('last-updated');
+                element.innerHTML = 'Page last updated: ' + lastModified + ' (UTC)';
             });
-          </script>
+        </script>
 
     </div>
 </body>
