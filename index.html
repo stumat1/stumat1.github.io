@@ -52,8 +52,9 @@
         </center>
         <script>
             const date = new Date(document.lastModified);
-            document.getElementById("last-updated").innerHTML = date;
-            </script>
+            const formattedDate = 'Page last modified on: ' + date;
+            document.getElementById("last-updated").innerHTML = formattedDate;
+        </script>
 
     </div>
 </body>
