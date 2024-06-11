@@ -63,3 +63,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.filler-space{
+  min-height: 50px;
+}
