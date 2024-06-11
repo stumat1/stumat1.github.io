@@ -40,21 +40,21 @@
         <p><a href="volstmarythevirgin.html">Web Development: St Mary the Virgin Church</a></p>
         <p><a href="volchurchoftheholyrood.html">Web Development: Church of the Holy Rood</a></p>
 
-
         <br>
 
         <h3>Bio:</h3>
         <p><a href="bio.html">A little bio</a></p>
 
-
-
-        <p>This document was last modified:</p>
-        <p id="lastmodified"></p>
-
+        <br>
+        
+        <center><p id="last-updated"></p></center>
         <script>
-            let text = document.lastModified;
-            document.getElementById("lastmodified").innerHTML = text;
-        </script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var lastModified = document.lastModified;
+              var element = document.getElementById('last-updated');
+              element.innerHTML = 'Page last updated: ' + lastModified;
+            });
+          </script>
 
     </div>
 </body>
