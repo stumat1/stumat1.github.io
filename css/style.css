@@ -3,6 +3,7 @@ body {
   font-size: 0.9em;
   color: #000000;
   background-color: #FFFFFF;
+  min-height: 100vh;
   margin: 0px;
   padding: 0px;
   display: flex;
