@@ -57,6 +57,6 @@ a {
   height: 100%;
 }
 
-.filler {
-  min-height: 300px;
+.align-bottom {
+  vertical-align: bottom;
 }
