@@ -51,12 +51,12 @@
             <p id="last-updated"></p>
         </center>
         <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var lastModified = new Date(document.lastModified).toUTCString();
-                var element = document.getElementById('last-updated');
-                element.innerHTML = 'Page last updated: ' + lastModified + ' (UTC)';
+            document.addEventListener('DOMContentLoaded', function() {
+              var lastModified = new Date(document.lastModified).toUTCString();
+              var element = document.getElementById('last-updated');
+              element.innerHTML = 'Page last updated (UTC): ' + lastModified;
             });
-        </script>
+          </script>
 
     </div>
 </body>
