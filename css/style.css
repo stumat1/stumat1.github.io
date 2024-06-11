@@ -1,29 +1,21 @@
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   color: #000000;
   background-color: #FFFFFF;
   margin: 0px;
   padding: 0px;
   display: flex;
   flex: 1;
-  /* flex-direction: column; */
 }
 
-/* .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} */
- 
 .general-wrapper {
   margin: 0 auto;
   max-width: 1200px;
   background-color: #FFFFFF;
   border: 2px solid #95A591;
-  border-radius: 32px;
-  padding: 1.2rem;
+  border-radius: 30px;
+  padding: 1.1rem;
 }
 
 a {
@@ -31,12 +23,6 @@ a {
   font-weight: bold;
   color: #e60000;
 }
-
-/* .cisco-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-} */
 
 .cisco-pod {
   background-color: #FFFFFF;
@@ -52,8 +38,10 @@ a {
   position: relative;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* Center the container horizontally on the page */
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin: 0 auto;
+  /* Center the container horizontally on the page */
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
 }
