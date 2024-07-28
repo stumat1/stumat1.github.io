@@ -77,9 +77,18 @@
         .controls button:hover {
             background-color: #45a049;
         }
+        .general-wrapper {
+  margin: 0 auto;
+  max-width: 1120px;
+  background-color: #FFFFFF;
+  border: 2px solid #95A591;
+  border-radius: 30px;
+  padding: 1.1rem;
+}
     </style>
 </head>
 <body>
+    <div class="general-wrapper">
     <center><a href="/"><img src="images/Logo-CROPPED140.png" alt="Logo"></img></a></center>
     <h2>Python Concepts Flashcards</h2>
 
@@ -96,6 +105,7 @@
         <button onclick="flipCard()">Flip</button>
         <button onclick="nextCard()">Next</button>
     </div>
+</div>
 
     <script>
         const flashcards = [
