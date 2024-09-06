@@ -26,6 +26,12 @@ a {
   color: #e60000;
 }
 
+a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+  color: #e60000;
+}
+
 .cisco-pod {
   background-color: #FFFFFF;
   border: 2px solid #95A591;
