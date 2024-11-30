@@ -55,6 +55,15 @@ a:hover {
   margin: 0.4rem;
 }
 
+.badge-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.badge-container > div {
+  margin: 10px; /* Add space between badges */
+}
+
 .filler-space {
   min-height: 40px;
 }
