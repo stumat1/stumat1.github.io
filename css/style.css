@@ -58,7 +58,7 @@ a:hover {
 .badge-container {
   display: flex;
   justify-content: center;
-  margin: auto;
+  align-items: center;
   flex-wrap: wrap;
 }
 
