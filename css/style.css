@@ -32,6 +32,9 @@ a:hover {
   color: #e60000;
 }
 
+.imgcenter {
+  margin: auto;
+}
 .hello {
   font-weight: bold;
 }
