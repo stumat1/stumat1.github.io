@@ -33,7 +33,9 @@ a:hover {
 }
 
 .imgcenter {
-  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 .hello {
   font-weight: bold;
