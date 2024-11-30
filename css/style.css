@@ -58,8 +58,10 @@ a:hover {
 .badge-container {
   display: flex;
   justify-content: center;
+  margin: auto;
   flex-wrap: wrap;
 }
+
 .badge-container > div {
   margin: 10px; /* Add space between badges */
 }
