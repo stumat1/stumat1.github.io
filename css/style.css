@@ -1,9 +1,9 @@
 body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.6em;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   min-height: 100vh;
   margin: 0px;
   padding: 0px;
@@ -14,7 +14,7 @@ body {
 .general-wrapper {
   margin: 0 auto;
   max-width: 1120px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 2px solid #003380;
   border-radius: 20px;
   padding: 1rem;
@@ -46,7 +46,6 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-
 .cisco-pod {
   background-color: #fdfeff;
   border: 2px solid #003380;
@@ -67,7 +66,7 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
   /* Center the container horizontally on the page */
-  padding-bottom: 56.25%;  /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
 }
