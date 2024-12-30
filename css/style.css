@@ -33,9 +33,9 @@ a:hover {
 }
 
 .imgcenter {
-  display: block; /* Ensure container behaves like a block element */
-  margin: auto; /* Centers the element */
-  text-align: center; /* Optional for text alignment */
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .hello {
   font-weight: bold;
