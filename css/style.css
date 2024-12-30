@@ -46,20 +46,6 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-.image-container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  align-items: center;
-  text-align: center;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .cisco-pod {
   background-color: #fdfeff;
   border: 2px solid #003380;
