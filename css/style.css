@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6em;
   color: #000000;
   background-color: #ffffff;
@@ -52,6 +52,7 @@ a:hover {
   margin-bottom: 40px;
   text-align: center;
 }
+
 .hello {
   font-weight: bold;
 }
@@ -115,13 +116,14 @@ hr {
 .button-link {
   display: inline-block; /* Ensures the button only takes up as much width as the text */
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: white; /* Keeps text white */
   background-color: #007bff;
   border: none;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  align-items: center;
   cursor: pointer;
   box-sizing: border-box; /* Ensures padding doesn't expand the size unintentionally */
   width: auto; /* Ensures no extra width is added */
