@@ -1,14 +1,14 @@
 body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 0.9em;
+  font-size: 1rem;
   line-height: 1.6em;
   color: #000000;
   background-color: #ffffff;
-  min-height: 100vh;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex: 1;
+  margin: 0; /* Ensures no unwanted margins */
+  padding: 0; /* Ensures no unwanted padding */
+  display: flex; /* Ensures child elements are flexed */
+  flex-direction: column; /* Stacks elements vertically */
+  min-height: 100vh; /* Ensures full viewport height is covered */
 }
 
 .general-wrapper {
@@ -16,10 +16,22 @@ body {
   max-width: 1120px;
   width: 100%;
   background-color: #ffffff;
-  border: 2px solid #003380;
+  border: 2px solid #00a;
   border-radius: 20px;
   padding: 1rem;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Consistent padding/border behavior */
+  display: flex; /* Flexbox for content and copyright alignment */
+  flex-direction: column; /* Stacks children vertically */
+  flex: 1; /* Allows wrapper to expand within body */
+}
+
+.content {
+  flex: 1; /* Fills available space above the copyright div */
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
 }
 
 a {
@@ -34,16 +46,17 @@ a:hover {
   color: #e60000;
 }
 
-.imgcenter {
+.logo {
   display: block;
   margin: auto;
+  margin-bottom: 40px;
   text-align: center;
 }
 .hello {
   font-weight: bold;
 }
 
-.hrtag {
+hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -97,4 +110,23 @@ a:hover {
   border: solid 1px #003380;
   border-radius: 10px;
   display: block;
+}
+
+.button-link {
+  display: inline-block; /* Ensures the button only takes up as much width as the text */
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white; /* Keeps text white */
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensures padding doesn't expand the size unintentionally */
+  width: auto; /* Ensures no extra width is added */
+}
+.button-link:hover {
+  background-color: #0056b3; /* Changes background color on hover */
+  color: white; /* Ensures text stays white */
 }
