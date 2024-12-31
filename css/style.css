@@ -93,5 +93,7 @@ a:hover {
 .image-container img {
   width: 100%;
   height: auto;
+  border: solid 1px #003380;
+  border-radius: 10px;
   display: block;
 }
