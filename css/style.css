@@ -112,23 +112,3 @@ hr {
   border-radius: 10px;
   display: block;
 }
-
-.button-link {
-  display: inline-block; /* Ensures the button only takes up as much width as the text */
-  padding: 10px 20px;
-  font-size: 0.9rem;
-  color: white; /* Keeps text white */
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  text-align: center;
-  align-items: center;
-  cursor: pointer;
-  box-sizing: border-box; /* Ensures padding doesn't expand the size unintentionally */
-  width: auto; /* Ensures no extra width is added */
-}
-.button-link:hover {
-  background-color: #0056b3; /* Changes background color on hover */
-  color: white; /* Ensures text stays white */
-}
