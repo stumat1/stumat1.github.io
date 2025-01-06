@@ -34,6 +34,21 @@ body {
   height: auto;
 }
 
+.footer-image-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Optional: centers vertically if needed */
+  height: 100%; /* Set the height of the parent container if necessary */
+  text-align: center; /* Ensures proper alignment */
+}
+
+.footer-image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border: solid 1px #333;
+  border-radius: 10px;
+}
 .copyright {
   text-align: center;
 }
