@@ -6,9 +6,6 @@ body {
   background-color: #ffffff;
   margin: 0; /* Ensures no unwanted margins */
   padding: 0; /* Ensures no unwanted padding */
-  display: flex; /* Ensures child elements are flexed */
-  flex-direction: column; /* Stacks elements vertically */
-  min-height: 100vh; /* Ensures full viewport height is covered */
 }
 
 .general-wrapper {
@@ -16,13 +13,25 @@ body {
   max-width: 1120px;
   width: 100%;
   background-color: #ffffff;
-  border: 2px solid #00a;
+  border: 2px solid #209cee;
   border-radius: 20px;
   padding: 1rem;
-  box-sizing: border-box; /* Consistent padding/border behavior */
-  display: flex; /* Flexbox for content and copyright alignment */
-  flex-direction: column; /* Stacks children vertically */
-  flex: 1; /* Allows wrapper to expand within body */
+  min-height: 100vh;
+}
+
+/* Container for the logo */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Optional: centers vertically if needed */
+  height: 100%; /* Set the height of the parent container if necessary */
+  text-align: center; /* Ensures proper alignment */
+}
+
+/* Ensure the image does not exceed its container */
+.logo-container img {
+  max-width: 100%;
+  height: auto;
 }
 
 .copyright {
@@ -42,10 +51,8 @@ a:hover {
 }
 
 .logo {
-  display: block;
   margin: auto;
-  margin-bottom: 40px;
-  text-align: center;
+  margin-bottom: 10px;
 }
 
 .hello {
