@@ -16,6 +16,8 @@ body {
   border: 2px solid #209cee;
   border-radius: 20px;
   padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   min-height: 100vh;
 }
 
