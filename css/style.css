@@ -50,9 +50,9 @@ a:hover {
   color: #e60000;
 }
 
-.logo {
-  margin: auto;
-  margin-bottom: 10px;
+hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hello {
