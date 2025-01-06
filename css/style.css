@@ -25,10 +25,6 @@ body {
   flex: 1; /* Allows wrapper to expand within body */
 }
 
-.content {
-  flex: 1; /* Fills available space above the copyright div */
-}
-
 .copyright {
   text-align: center;
 }
@@ -54,11 +50,6 @@ a:hover {
 
 .hello {
   font-weight: bold;
-}
-
-hr {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .cisco-pod {
@@ -94,20 +85,4 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.image-container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 40px;
-  text-align: center;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  border: solid 1px #003380;
-  border-radius: 10px;
-  display: block;
 }
