@@ -4,8 +4,8 @@ body {
   line-height: 1.6em;
   color: #000000;
   background-color: #ffffff;
-  margin: 0; /* Ensures no unwanted margins */
-  padding: 0; /* Ensures no unwanted padding */
+  margin: 0;
+  padding: 0;
 }
 
 .general-wrapper {
@@ -19,10 +19,9 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   min-height: 100vh;
-  box-sizing: border-box; /* Ensures padding is included in the width */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
-/* Optional: Adjust padding/margin for smaller screens */
 @media (max-width: 768px) {
   .general-wrapper {
     padding: 15px;
@@ -32,13 +31,12 @@ body {
 /* Container for the logo */
 .logo-container {
   display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: center; /* Optional: centers vertically if needed */
-  height: 100%; /* Set the height of the parent container if necessary */
-  text-align: center; /* Ensures proper alignment */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
 }
 
-/* Ensure the image does not exceed its container */
 .logo-container img {
   max-width: 100%;
   height: auto;
@@ -46,10 +44,10 @@ body {
 
 .footer-image-container {
   display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: center; /* Optional: centers vertically if needed */
-  height: 100%; /* Set the height of the parent container if necessary */
-  text-align: center; /* Ensures proper alignment */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
 }
 
 .footer-image-container img {
@@ -101,7 +99,7 @@ hr {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   /* Center the container horizontally on the page */
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
