@@ -1,25 +1,13 @@
-/* Reset styles for consistent box-sizing */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* Reset margins and paddings */
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* General body styling */
 body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 0.9rem;
   line-height: 1.6em;
   color: #000000;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styling for the general wrapper */
 .general-wrapper {
   margin: 0 auto;
   max-width: 1000px;
@@ -40,7 +28,7 @@ body {
   }
 }
 
-/* Logo container styling */
+/* Container for the logo */
 .logo-container {
   display: flex;
   justify-content: center;
@@ -69,12 +57,10 @@ body {
   border: solid 1px #333;
   border-radius: 10px;
 }
-
 .copyright {
   text-align: center;
 }
 
-/* Link styling */
 a {
   text-decoration: none;
   font-weight: normal;
@@ -87,7 +73,6 @@ a:hover {
   color: #e60000;
 }
 
-/* Horizontal rule spacing */
 hr {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -97,7 +82,6 @@ hr {
   font-weight: bold;
 }
 
-/* Cisco pod-specific styling */
 .cisco-pod {
   background-color: #fdfeff;
   border: 2px solid #003380;
@@ -106,17 +90,18 @@ hr {
   margin-bottom: 10px;
 }
 
-/* Unified spacing block */
 .filler-space {
   min-height: 40px;
 }
 
 /* Youtube video responsive code */
+
 .video-container {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto; /* Center the container horizontally on the page */
+  margin: 0 auto;
+  /* Center the container horizontally on the page */
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
