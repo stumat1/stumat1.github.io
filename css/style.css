@@ -98,10 +98,6 @@ hr {
   margin-bottom: 2rem;
 }
 
-.hello {
-  font-weight: bold;
-}
-
 /* Cisco pod-specific styling */
 .cisco-pod {
   background-color: #fdfeff;
