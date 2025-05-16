@@ -1,22 +1,7 @@
-/* Reset styles for consistent box-sizing */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Reset margins and paddings */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 /* General body styling */
 body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.6em;
   color: #000000;
   background-color: #ffffff;
@@ -25,22 +10,14 @@ body {
 /* Styling for the general wrapper */
 .general-wrapper {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1024px;
   width: 90%;
   background-color: #ffffff;
-  border: 2px solid #209cee;
-  border-radius: 20px;
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
   min-height: 100vh;
   box-sizing: border-box; /* Ensure padding is included in the width */
-}
-
-@media (max-width: 768px) {
-  .general-wrapper {
-    padding: 15px;
-  }
 }
 
 /* Logo container styling */
