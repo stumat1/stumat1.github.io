@@ -3,8 +3,8 @@ body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.6em;
-  color: #000000;
-  background-color: #ffffff;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 /* Styling for the general wrapper */
@@ -17,7 +17,8 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   min-height: 100vh;
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 /* Logo container styling */
