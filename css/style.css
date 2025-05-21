@@ -40,17 +40,16 @@ body {
 .footer-image-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
-  text-align: center;
+  align-items: center; 
+  height: 100%; 
 }
 
 .footer-image-container img {
   max-width: 100%;
   height: auto;
-  margin-top: 1rem;
-  border: solid 1px #333;
-  border-radius: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .copyright {
