@@ -98,6 +98,9 @@ hr {
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
+   border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .video-container iframe,
