@@ -60,13 +60,15 @@ body {
 a {
   text-decoration: none;
   font-weight: normal;
-  color: #e60000;
+  color: #3366FF;
+ /* Old Red color: #e60000; */
 }
 
 a:hover {
   text-decoration: underline;
   font-weight: normal;
-  color: #e60000;
+  color: #3399FF;
+  /* Old Red color: #e60000; */
 }
 
 /* Horizontal rule spacing */
