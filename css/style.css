@@ -10,15 +10,15 @@ body {
 /* Styling for the general wrapper */
 .general-wrapper {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 900px;
   width: 90%;
   background-color: #ffffff;
   padding: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: rem;
+  padding-right: 1rem;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 95vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -30,8 +30,8 @@ body {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0.8rem;
 }
 
 .logo-container img {
