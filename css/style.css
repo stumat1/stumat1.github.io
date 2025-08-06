@@ -20,7 +20,7 @@ body {
 
 /* Styling for the general wrapper */
 .general-wrapper {
-  max-width: 1129px;
+  max-width: 800px;
   width: 90%;
   background-color: #ffffff;
   padding: 1rem;
@@ -30,7 +30,7 @@ body {
   min-height: 95vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin: 2.5vh auto;
+  margin: auto;
 }
 
 /* Logo container styling */
@@ -83,6 +83,30 @@ a:hover {
   /* Old Red color: #e60000; */
 }
 
+/* Button styling */
+.email-button {
+  display: inline-block;
+  background-color: #0066cc;
+  color: #ffffff !important;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid #0066cc;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 102, 204, 0.2);
+}
+
+.email-button:hover {
+  background-color: #004499;
+  border-color: #004499;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 8px rgba(0, 102, 204, 0.3);
+  transform: translateY(-1px);
+}
+
 /* Horizontal rule spacing */
 hr {
   display: block;
@@ -101,6 +125,31 @@ hr {
   border-top: 1px solid #eee;
   margin-top: 4em;
   padding-bottom: 1em;
+}
+
+/* Content section styling */
+.content-section {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid #0066cc;
+  background-color: #f8f9fa;
+  border-radius: 0 8px 8px 0;
+}
+
+.content-section h3 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #0066cc;
+}
+
+.content-section h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  color: #0066cc;
+}
+
+.content-section p {
+  margin-bottom: 0;
 }
 
 /* Cisco pod-specific styling */
@@ -146,7 +195,7 @@ hr {
 /* Large screens (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .general-wrapper {
-    max-width: 1200px;
+    max-width: 900px;
     padding: 2rem;
   }
 
@@ -171,11 +220,11 @@ hr {
   }
 }
 
-/* Small screens (phones, 576px to 767px) */
-@media (max-width: 767px) {
+/* Mobile-friendly tablets (481px to 767px) */
+@media (max-width: 767px) and (min-width: 481px) {
   body {
-    font-size: 0.9rem;
-    line-height: 1.5em;
+    font-size: 1.05rem;
+    line-height: 1.6em;
   }
 
   .general-wrapper {
@@ -195,7 +244,7 @@ hr {
   }
 
   .last-updated {
-    font-size: 11px;
+    font-size: 0.9rem;
     margin-top: 2em;
     padding: 8px;
   }
@@ -203,6 +252,12 @@ hr {
   .cisco-pod {
     padding: 8px;
     margin-bottom: 8px;
+  }
+
+  .content-section {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border-left-width: 3px;
   }
 
   .video-container {
@@ -215,11 +270,66 @@ hr {
   }
 }
 
-/* Extra small screens (phones, less than 576px) */
-@media (max-width: 575px) {
+/* Small screens (phones, 481px to 767px) */
+@media (max-width: 480px) {
   body {
-    font-size: 0.85rem;
-    line-height: 1.4em;
+    font-size: 1.1rem;
+    line-height: 1.6em;
+  }
+
+  .general-wrapper {
+    width: 95%;
+    padding: 1rem;
+    min-height: 90vh;
+    border-radius: 5px;
+  }
+
+  .logo-container {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .logo-container img {
+    max-width: 80px;
+  }
+
+  .last-updated {
+    font-size: 0.9rem;
+    margin-top: 2em;
+    padding: 8px;
+  }
+
+  .cisco-pod {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .content-section {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border-left-width: 3px;
+  }
+
+  .video-container {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  hr {
+    margin: 1em 0;
+  }
+
+  .email-button {
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+  }
+}
+
+/* Extra small screens (phones, less than 376px) */
+@media (max-width: 375px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.6em;
   }
 
   .general-wrapper {
@@ -233,7 +343,7 @@ hr {
   }
 
   .last-updated {
-    font-size: 10px;
+    font-size: 0.95rem;
     margin-top: 1.5em;
     padding: 6px;
   }
@@ -243,11 +353,23 @@ hr {
     border-radius: 5px;
   }
 
+  .content-section {
+    margin: 0.8rem 0;
+    padding: 0.6rem;
+    border-left-width: 3px;
+    border-radius: 0 5px 5px 0;
+  }
+
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+
+  .email-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
   }
 }
