@@ -88,7 +88,7 @@ a:hover {
   display: inline-block;
   background-color: #0066cc;
   color: #ffffff !important;
-  padding: 0.75rem 1.5rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 8px;
   text-decoration: none !important;
   font-weight: 500;
@@ -98,14 +98,14 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0, 102, 204, 0.2);
 }
 
-.email-button:hover {
+/* .email-button:hover {
   background-color: #004499;
   border-color: #004499;
   color: #ffffff !important;
   text-decoration: none !important;
   box-shadow: 0 4px 8px rgba(0, 102, 204, 0.3);
   transform: translateY(-1px);
-}
+} */
 
 /* Horizontal rule spacing */
 hr {
@@ -220,13 +220,8 @@ hr {
   }
 }
 
-/* Mobile-friendly tablets (481px to 767px) */
-@media (max-width: 767px) and (min-width: 481px) {
-  body {
-    font-size: 1.05rem;
-    line-height: 1.6em;
-  }
-
+/* Mobile-friendly tablets and phones (less than 768px) */
+@media (max-width: 767px) {
   .general-wrapper {
     width: 95%;
     padding: 1rem;
@@ -270,55 +265,8 @@ hr {
   }
 }
 
-/* Small screens (phones, 481px to 767px) */
+/* Small screens (phones, less than 481px) */
 @media (max-width: 480px) {
-  body {
-    font-size: 1.1rem;
-    line-height: 1.6em;
-  }
-
-  .general-wrapper {
-    width: 95%;
-    padding: 1rem;
-    min-height: 90vh;
-    border-radius: 5px;
-  }
-
-  .logo-container {
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  .logo-container img {
-    max-width: 80px;
-  }
-
-  .last-updated {
-    font-size: 0.9rem;
-    margin-top: 2em;
-    padding: 8px;
-  }
-
-  .cisco-pod {
-    padding: 8px;
-    margin-bottom: 8px;
-  }
-
-  .content-section {
-    margin: 1rem 0;
-    padding: 0.8rem;
-    border-left-width: 3px;
-  }
-
-  .video-container {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-
-  hr {
-    margin: 1em 0;
-  }
-
   .email-button {
     padding: 0.65rem 1.25rem;
     font-size: 1rem;
@@ -327,11 +275,6 @@ hr {
 
 /* Extra small screens (phones, less than 376px) */
 @media (max-width: 375px) {
-  body {
-    font-size: 1.2rem;
-    line-height: 1.6em;
-  }
-
   .general-wrapper {
     width: 98%;
     padding: 0.75rem;
