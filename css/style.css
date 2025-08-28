@@ -20,7 +20,7 @@ body {
 
 /* Styling for the general wrapper */
 .general-wrapper {
-  max-width: 800px;
+  max-width: 1024px;
   width: 90%;
   background-color: #ffffff;
   padding: 1rem;
