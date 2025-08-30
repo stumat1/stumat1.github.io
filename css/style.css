@@ -126,6 +126,49 @@ body {
   font-size: 0.95rem;
 }
 
+/* Portfolio Section Styling */
+.portfolio-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #0066cc;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.portfolio-highlight {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.portfolio-highlight p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-cta {
+  margin-top: 1rem;
+}
+
+.portfolio-button-featured {
+  display: inline-block;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: #ffffff !important;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 /* Project Items Styling */
 .project-item {
   background-color: #fff;
@@ -223,18 +266,36 @@ a:hover {
 }
 
 /* Button styling */
-.email-button {
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.email-button,
+.portfolio-button {
   display: inline-block;
-  background-color: #0066cc;
   color: #ffffff !important;
   padding: 0.2rem 0.7rem;
   border-radius: 8px;
   text-decoration: none !important;
   font-weight: 500;
   transition: all 0.3s ease;
-  border: 2px solid #0066cc;
+  border: 2px solid;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 102, 204, 0.2);
+}
+
+.email-button {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.portfolio-button {
+  background-color: #28a745;
+  border-color: #28a745;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.2);
 }
 
 /* .email-button:hover {
@@ -357,6 +418,10 @@ hr {
   .video-container {
     max-width: 800px;
   }
+
+  .cta-buttons {
+    gap: 0.8rem;
+  }
 }
 
 /* Mobile-friendly tablets and phones (less than 768px) */
@@ -408,6 +473,16 @@ hr {
   .cta-section {
     padding: 1.5rem;
     margin: 1.5rem 0;
+  }
+
+  .portfolio-section {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .portfolio-button-featured {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
   }
 
   .last-updated {
@@ -512,8 +587,13 @@ hr {
     font-size: 1.2rem;
   }
 
-  .email-button {
+  .email-button,
+  .portfolio-button {
     padding: 0.6rem 1rem;
     font-size: 0.95rem;
+  }
+
+  .cta-buttons {
+    gap: 0.5rem;
   }
 }
