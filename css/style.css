@@ -154,19 +154,12 @@ body {
 
 .portfolio-button-featured {
   display: inline-block;
-  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  background: #28a745;
   color: #ffffff !important;
   padding: 0.8rem 2rem;
-  border-radius: 25px;
+  border: 2px solid #1e7e34;
   text-decoration: none !important;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  border: none;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 /* Project Items Styling */
@@ -254,14 +247,14 @@ body {
 a {
   text-decoration: none;
   font-weight: normal;
-  color: #0000ff;
+  color: #155724;
   /* Old Red color: #e60000; */
 }
 
 a:hover {
   text-decoration: underline;
   font-weight: normal;
-  color: #3399ff;
+  color: #155724;
   /* Old Red color: #e60000; */
 }
 
@@ -278,18 +271,13 @@ a:hover {
   display: inline-block;
   color: #ffffff !important;
   padding: 0.2rem 0.7rem;
-  border-radius: 8px;
   text-decoration: none !important;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 2px solid;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 102, 204, 0.2);
 }
 
 .email-button {
-  background-color: #0066cc;
-  border-color: #0066cc;
+  background: #28a745;
+  border: 2px solid #1e7e34;
 }
 
 .portfolio-button {
