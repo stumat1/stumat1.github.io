@@ -1,0 +1,40 @@
+Volunteering Website development:
+
+Holyrood Church Carnoustie - The first website I did volunteering for a job, building a website for their church and parisioners built using WordPress with a blog section in which they can post regular updates. The front page also includes a Facebook feed linked to their Facebook page. Address: https://holyroodcarnoustie.org/
+
+
+St Mary The Virgin Church Arbroath - The second website I did in my volunteering role. Another WordPress website with a posts are they can keep people updated with. The remit for this was wacky and fun so it is a little unconventional. Address: https://stmarythevirginarbroath.org.uk/
+
+
+Carnoustie Men's (and Women's) Shed - The third website I created in my volunteering journey. This is also WorPress based and has a members are with polls and forum functionality. It is quite an expansive site. I also provide ongoing teaching to a member there on maintaining the website and how to update it with new content. Address: https://carnoustiemensshed.org/
+
+
+Personal Project Website Development:
+
+Ballet Classics - A website that started out as a simple website that provides the stories behing the best known classical ballets. It now has 24 ballet stories each with comprehensive descriptions. An expanded version is being created where much more varied content will be added: Composer profiles, Ballet Glossary, Quizzes, FAQ, a timeline of classical ballets and more. Address: https://balletclassics.com/
+
+
+Advent Calendar - A fun and simple website that counts down the days to Christmas for every day of the year. During the 25 days before Christmas there is a festive image and festive quote, these change every day. Address: https://myadventcalendar.me/
+
+
+Professional website - My static GitHub website with a resume/curriculum vitae emphasis. Address: https://stumat1.github.io/
+
+
+My Blog Site - My personal blog website, WordPress based. Address: https://stuartsm3.com/
+
+
+My Dog's Website - A fun simple WordPress based website for my pet dog Bailey. Address: https://baileychihuahua.online/
+
+
+Upcoming Web Development (Not Live Yet):
+
+One Anagram - A web app that will let users submit words or a jumble of letters and then find all words that can be made from those letters, ordered and presented simply and cleanly. Address: https://oneanagram.com
+
+
+Professional website - An updated version of my cv website on my own domain. Address: https://stuartsm.com
+
+
+Year end countdown - A website that counts down the days to the end of the year, similar to the advent calendar but for the year end. Address: https://byebyeyear.com
+
+
+General countdown website - A website that pulls together the advent calendar website and the year end website countdowns into one central portal. Possibly with additional countdowns added. Address: https://manydaystogo.com

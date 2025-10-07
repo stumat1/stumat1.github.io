@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Stuart Mathieson - Computing & IT</title>
     <meta
       name="description"
       content="Computing & IT professional specializing in web development, networking, and digital solutions. BSc Computing & IT student with practical experience in full-stack development and community technology projects."
     />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preload" href="css/style.min.css" as="style" />
+    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+    <link rel="preload" href="images/logo-50x50.png" as="image" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
 
   <body>
@@ -20,14 +24,10 @@
       <!-- Professional Header -->
       <div class="professional-header">
         <h1>Stuart Mathieson</h1>
-        <h2 class="professional-title">
-          Computing & IT Undergraduate | Full-Stack Developer
-        </h2>
+        <h2 class="professional-title">Computing & IT Undergraduate</h2>
         <p class="professional-summary">
           BSc Computing & IT student with hands-on experience in web
-          development, networking technologies, and digital solutions. Proven
-          track record of delivering professional websites and providing
-          technical support to community organizations.
+          development, networking technologies, and digital solutions.
         </p>
       </div>
 
@@ -35,11 +35,11 @@
       <div class="contact-info">
         <div class="contact-item">
           <strong>Email:</strong>
-          <a href="mailto:stuart@stuartsm.com">Email Me</a>
+          <a href="mailto:stuart@stuartsm.com">Email</a>
         </div>
         <div class="contact-item">
           <strong>GitHub:</strong>
-          <a href="https://github.com/stumat1" target="_blank">stumat1</a>
+          <a href="https://github.com/stumat1">stumat1</a>
         </div>
         <div class="contact-item">
           <strong>LinkedIn:</strong>
@@ -49,7 +49,9 @@
             >Stuart Mathieson</a
           >
         </div>
-        <div class="contact-item"><strong>Location:</strong> Scotland, UK</div>
+        <div class="contact-item">
+          <strong>Location:</strong> Carnoustie, Scotland
+        </div>
       </div>
 
       <hr />
@@ -83,62 +85,32 @@
       <div class="content-section portfolio-section">
         <h3>Portfolio</h3>
         <div class="portfolio-highlight">
-          <p>
-            Explore my complete collection of web development projects, from
-            WordPress sites to custom applications. See real-world examples of
-            my technical skills in action.
-          </p>
+          <p>A collection of my web development projects</p>
           <div class="portfolio-cta">
-            <a
-              href="https://stuartsm3.com/2025/06/websites-7th-june-2025/"
-              class="portfolio-button-featured"
-              target="_blank"
+            <a href="portfolio.html" class="portfolio-button-featured"
               >View Complete Portfolio</a
             >
           </div>
         </div>
       </div>
 
-      <!-- Featured Projects Section -->
-      <div class="content-section">
-        <h3>Featured Projects</h3>
-        <div class="project-item">
-          <h4>Carnoustie Men's Shed Website</h4>
+      <!-- Degree Project Section -->
+      <div class="content-section portfolio-section">
+        <h3>Degree Project</h3>
+        <div class="portfolio-highlight">
           <p>
-            Comprehensive WordPress website with member portal, forum
-            functionality, and e-commerce integration. Includes ongoing training
-            and support for content management.
+            Developed a full-stack web application for network students to
+            upload, analyse, and visualise PCAPNG (Packet Capture Next
+            Generation) files. A solution which combines modern web technologies
+            with advanced network analysis capabilities, delivering a secure,
+            user-friendly platform for network traffic investigation and
+            forensic analysis.
           </p>
-          <p><strong>Technologies:</strong> WordPress, PHP, Custom Themes</p>
-          <p>
-            <a href="https://carnoustiemensshed.org/" target="_blank"
-              >Live Site</a
+          <div class="portfolio-cta">
+            <a href="project.html" class="portfolio-button-featured"
+              >View Project Details</a
             >
-          </p>
-        </div>
-
-        <div class="project-item">
-          <h4>Full-Stack Web Application</h4>
-          <p>
-            Building a networking tool for students and enthusiasts using modern
-            technologies with containerized deployment.
-          </p>
-          <p>
-            <strong>Technologies:</strong> React, Django, Docker, Full-Stack
-            Development
-          </p>
-        </div>
-
-        <div class="project-item">
-          <h4>Church Website Development</h4>
-          <p>
-            Multiple custom website projects featuring innovative design
-            approaches and client-specific requirements.
-          </p>
-          <p>
-            <strong>Technologies:</strong> HTML, CSS, JavaScript, Responsive
-            Design
-          </p>
+          </div>
         </div>
       </div>
 
@@ -147,11 +119,11 @@
         <h3>Education & Certifications</h3>
         <div class="education-item">
           <h4>BSc Computing & IT (with Networking)</h4>
-          <p><strong>Open University</strong> | Expected Completion: 2025</p>
+          <p><strong>Open University</strong> | Completion: December 2025</p>
           <p>
             <strong>Key Coursework:</strong> Web Technologies, Mobile & Cloud
-            Development, Communications Technology, Object-Oriented Java
-            Programming, Computing Project
+            Development, Communications Technology, OpenStack, Degree Project
+            (React, Django...)
           </p>
         </div>
 
@@ -168,35 +140,9 @@
         </div>
       </div>
 
-      <!-- Professional Experience Section -->
-      <div class="content-section">
-        <h3>Professional Experience</h3>
-        <div class="project-item">
-          <h4>Digital Assistant & Web Developer</h4>
-          <p>
-            <strong>The Learning Shop & Community Organizations</strong> |
-            Ongoing
-          </p>
-          <ul>
-            <li>
-              Provide ongoing digital support and IT assistance for adult
-              literacy programs
-            </li>
-            <li>
-              Develop and maintain websites for local community organizations
-            </li>
-            <li>Deliver training and support for content management systems</li>
-            <li>
-              Create responsive, accessible web solutions tailored to client
-              needs
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <!-- Call to Action -->
       <div class="cta-section">
-        <h3>Let's Connect</h3>
+        <h3>Connect</h3>
         <p>
           Interested in discussing opportunities or learning more about my work?
         </p>
@@ -207,6 +153,6 @@
         <p id="lastModified">Last updated: Loading...</p>
       </div>
     </div>
-    <script src="js/last-updated.js"></script>
+    <script src="js/last-updated.min.js"></script>
   </body>
 </html>
