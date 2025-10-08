@@ -79,7 +79,7 @@ body {
   font-size: 0.95rem;
 }
 .contact-item strong {
-  color: #0066cc;
+  color: #00a;
 }
 .skills-section .skills-grid {
   display: grid;
@@ -95,7 +95,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .skill-category h4 {
-  color: #0066cc;
+  color: #00a;
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
 }
@@ -203,7 +203,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .education-item h4 {
-  color: #0066cc;
+  color: #00a;
   margin: 0 0 0.5rem 0;
   font-size: 1.2rem;
 }
@@ -220,7 +220,7 @@ body {
   border: 2px solid #0066cc;
 }
 .cta-section h3 {
-  color: #0066cc;
+  color: #00a;
   margin: 0 0 1rem 0;
 }
 .cta-section p {
