@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 .general-wrapper {
-  max-width: 900px;
+  max-width: 1120px;
   width: 90%;
   background-color: #ffffff;
   padding: 1rem;
@@ -292,14 +292,14 @@ hr {
 }
 @media (min-width: 1200px) {
   .general-wrapper {
-    max-width: 900px;
+    max-width: 1120px;
     padding: 2rem;
   }
   body {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 999px) and (min-width: 768px) {
+@media (max-width: 1199px) and (min-width: 768px) {
   .general-wrapper {
     width: 95%;
     padding: 1.5rem;
