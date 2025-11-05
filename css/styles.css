@@ -1,0 +1,196 @@
+/* ---------- Base Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Global Styles ---------- */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 2.5rem;
+}
+
+/* ---------- Logo ---------- */
+.container > img {
+  display: block;
+  max-width: clamp(80px, 15vw, 120px);
+  margin: 0 auto 2rem auto;
+}
+
+/* ---------- Header ---------- */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  color: #111;
+}
+
+/* ---------- Typography ---------- */
+h2 {
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  font-weight: 500;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  color: #004999;
+  border-color: #004999;
+}
+
+/* ---------- Sections ---------- */
+section {
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* ---------- Last Updated ---------- */
+.last-updated {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 1rem;
+}
+
+/* ---------- Responsive ---------- */
+
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    padding: 2rem;
+  }
+
+  body {
+    padding: 1.5rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  body {
+    padding: 1.25rem;
+  }
+
+  .container {
+    padding: 1.75rem;
+    border-radius: 8px;
+  }
+
+  section {
+    margin-bottom: 1.25rem;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 1.25rem;
+    border-radius: 6px;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  body {
+    padding: 0.75rem;
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .container > img {
+    margin-bottom: 1.5rem;
+  }
+
+  header {
+    margin-bottom: 1.5rem;
+  }
+}
