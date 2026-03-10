@@ -86,19 +86,17 @@ ul li {
 a {
   color: #0000EE;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
   transition: all 0.3s ease;
-}
-
-a:visited {
-  color: #551A8B;
-}
-
-a:active {
-  color: #FF0000;
+  position: relative;
+  background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 a:hover {
-  text-decoration: underline;
+
 }
 
 /* ---------- Sections ---------- */
