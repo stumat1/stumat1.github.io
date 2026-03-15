@@ -12,7 +12,6 @@ body {
   color: #222;
   line-height: 1.6;
   font-size: 16px;
-  /* padding: 2rem; */
   display: flex;
   justify-content: center;
 }
@@ -27,10 +26,16 @@ body {
 }
 
 /* ---------- Logo ---------- */
-.container > img {
+.container > a:first-child {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container > a:first-child img {
   display: block;
   max-width: clamp(80px, 15vw, 120px);
-  margin: 0 auto 2rem auto;
+  margin: 0 auto;
 }
 
 /* ---------- Header ---------- */
@@ -48,11 +53,17 @@ header img {
 h1 {
   font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 600;
-  color: #000000;
   background: linear-gradient(135deg, #000000 0%, #2c3e50 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  color: #888;
+  margin-top: 0.4rem;
+  letter-spacing: 0.03em;
 }
 
 /* ---------- Typography ---------- */
@@ -66,7 +77,6 @@ h2 {
   border-image: linear-gradient(90deg, #3498db 0%, #e8f4f8 100%);
   border-image-slice: 1;
   padding-bottom: 0.4rem;
-  transition: all 0.3s ease;
 }
 
 p {
@@ -84,26 +94,100 @@ ul li {
 }
 
 a {
-  color: #0000EE;
+  color: #2980b9;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 a:visited {
-  color: #551A8B;
+  color: #2980b9;
 }
 
 a:active {
-  color: #FF0000;
+  color: #1a5c8a;
 }
 
 a:hover {
+  color: #1a5c8a;
   text-decoration: underline;
 }
 
 /* ---------- Sections ---------- */
 section {
   margin-bottom: 1.5rem;
+}
+
+/* ---------- Skills ---------- */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  background: #e8f4f8;
+  color: #2c3e50;
+  border: 1px solid #cce3ef;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* ---------- Portfolio List ---------- */
+.portfolio-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 0;
+}
+
+.portfolio-list li:last-child {
+  border-bottom: none;
+}
+
+.portfolio-list a {
+  font-weight: 500;
+}
+
+.item-desc {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ---------- Badges ---------- */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+/* ---------- CTA Button ---------- */
+.cta-button {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.5rem;
+  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:visited {
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  text-decoration: none !important;
 }
 
 /* ---------- Footer ---------- */
@@ -114,14 +198,6 @@ footer {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid #eee;
-}
-
-/* ---------- Last Updated ---------- */
-.last-updated {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #888;
-  margin-top: 1rem;
 }
 
 /* ---------- Responsive ---------- */
@@ -183,8 +259,8 @@ footer {
     margin-bottom: 0.75rem;
   }
 
-  ul li {
-    margin-bottom: 0.5rem;
+  .badges {
+    justify-content: center;
   }
 }
 
@@ -199,11 +275,16 @@ footer {
     padding: 1rem;
   }
 
-  .container > img {
+  .container > a:first-child {
     margin-bottom: 1.5rem;
   }
 
   header {
     margin-bottom: 1.5rem;
+  }
+
+  .skill-tag {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
   }
 }
