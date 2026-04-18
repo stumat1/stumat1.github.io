@@ -94,21 +94,21 @@ ul li {
 }
 
 a {
-  color: #2980b9;
+  color: #0000cc;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:visited {
-  color: #2980b9;
+  color: #0000cc;
 }
 
 a:active {
-  color: #1a5c8a;
+  color: #000099;
 }
 
 a:hover {
-  color: #1a5c8a;
+  color: #000099;
   text-decoration: underline;
 }
 
@@ -171,7 +171,7 @@ section {
   display: inline-block;
   margin-top: 0.75rem;
   padding: 0.6rem 1.5rem;
-  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+  background: linear-gradient(135deg, #0000cc 0%, #0033ee 100%);
   color: #fff !important;
   border-radius: 6px;
   font-weight: 500;
