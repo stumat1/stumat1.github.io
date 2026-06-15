@@ -1,0 +1,13 @@
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
